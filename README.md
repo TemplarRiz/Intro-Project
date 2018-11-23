@@ -1,5 +1,6 @@
 # Intro-Project
-This is my first trial at this
+Making differences in branch2
 I am making an edit
 Making changes in the branch1
+New in branch2
 
