@@ -1,3 +1,3 @@
 # Intro-Project
-Starting from scratch. Hi
+Starting from beginning. Hello
 Working on commands.
