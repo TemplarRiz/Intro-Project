@@ -14,7 +14,7 @@ f, ax = plt.subplots(figsize=(10, 10))
 sns.heatmap(corr, mask=np.zeros_like(corr, dtype=np.bool), cmap=sns.diverging_palette(220, 10, as_cmap=True),
             square=True, ax=ax)
 # 7 scatter plots on the dataset pairs that have the highest correlation --------------------------------------
-
+# Variation 1
 data1 = data.loc[data.actor_1_facebook_likes < 125000]
 plt.figure(2,figsize=(10,10))
 plt.scatter(data1.actor_1_facebook_likes,data1.cast_total_facebook_likes)
@@ -42,7 +42,7 @@ plt.figure(6,figsize=(10,10))
 plt.scatter(data.num_voted_users,data.gross)
 plt.xlabel('num_voted_users')
 plt.ylabel('gross')
-
+# Variation 2
 plt.figure(7,figsize=(10,10))
 plt.scatter(data.num_voted_users,data.num_critic_for_reviews)
 plt.xlabel('num_voted_users')
